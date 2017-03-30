@@ -1,0 +1,13 @@
+﻿
+
+@{
+    var student_email = Session["email"];
+
+    if (student_email == null && Path.GetFileName(Request.Url.AbsolutePath) != "login.cshtml")
+    {
+        Response.Redirect("login.cshtml");
+    }
+
+
+
+}
