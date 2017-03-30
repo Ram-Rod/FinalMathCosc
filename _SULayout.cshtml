@@ -66,27 +66,27 @@
     </div>
     <div id="main" class="container">
         <!--Menu area...-->
-    <div style="float: left; margin-right: 10px;"">
-        <a class="input-button" href="default.cshtml">Intenship Home</a>
-    </div>
-    <div style="float: left; margin-right: 10px;">
-        <a class="input-button" href="application.cshtml">Internship Credit Application</a>
-    </div>
-    <div style="float: left">
-        <a class="input-button" id="progress" href="WeeklySubmission.cshtml">@show_progress</a>
-    </div>
-    <div style="float: right;  margin-left: 10px;">
-        <a class="input-button" href="logout.cshtml">Log Out</a>
-    </div>
-    <div style="float: right; margin-left: 10px;">
-        <a class="input-button" href="past.cshtml">Past Internships</a>
-    </div>
-    <div style="float: right">
-        <a class="input-button" href="postings.cshtml">Internship Postings</a>
-    </div>
-    
-        
-        <hr>
+        <div id="menu_area">
+            <div style="float: left; margin-right: 10px;" ">
+                <a class="input-button" href="default.cshtml">Intenship Home</a>
+            </div>
+            <div style="float: left; margin-right: 10px;">
+                <a class="input-button" href="application.cshtml">Internship Credit Application</a>
+            </div>
+            <div style="float: left">
+                <a class="input-button" id="progress" href="WeeklySubmission.cshtml">@show_progress</a>
+            </div>
+            <div style="float: right;  margin-left: 10px;">
+                <a class="input-button" href="logout.cshtml">Log Out</a>
+            </div>
+            <div style="float: right; margin-left: 10px;">
+                <a class="input-button" href="past.cshtml">Past Internships</a>
+            </div>
+            <div style="float: right">
+                <a class="input-button" href="postings.cshtml">Internship Postings</a>
+            </div>
+            <hr>
+        </div>
         <!--Body area-->
         @RenderBody()
 
